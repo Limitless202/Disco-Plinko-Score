@@ -47,16 +47,16 @@ function draw() {
   fill(random(0,255),random(0,255),random(0,255));
   //text(mouseX + "," + mouseY, 20, 50);
   textSize(35)
-  text(" 100 ", 5, 550);
-  text(" 200 ", 80, 550);
-  text(" 300 ", 160, 550);
-  text(" 400 ", 240, 550);
-  text(" 500 ", 320, 550);
-  text(" 500 ", 400, 550);
-  text(" 400 ", 480, 550);
-  text(" 300 ", 560, 550);
+  text(" 500 ", 5, 550);
+  text(" 500 ", 80, 550);
+  text(" 500 ", 160, 550);
+  text(" 500 ", 240, 550);
+  text(" 100 ", 320, 550);
+  text(" 100 ", 400, 550);
+  text(" 100 ", 480, 550);
+  text(" 200 ", 560, 550);
   text(" 200 ", 640, 550);
-  text(" 100 ", 720, 550);
+  text(" 200 ", 720, 550);
   text(" DISCO PLINKO ",250,450);
   Engine.update(engine);
   ground.display();
